@@ -1,0 +1,374 @@
+.PlansCotnainer {
+    width: 100%;
+    height: 95%;
+    /* background: firebrick; */
+    color: var(--light);
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+
+
+}
+
+.planWrapper {
+    width: 97%;
+    /* min-height: 5rem; */
+    background: var(--bgtheme);
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    padding-bottom: 1.6rem;
+    border: 0.2px solid var(--stext);
+    border-radius: 0.4rem;
+
+
+}
+
+.header {
+    width: 100%;
+    height: 4rem;
+    /* background: green; */
+    display: flex;
+}
+
+
+
+.iconsgroup {
+    min-width: 35%;
+    /* background: ghostwhite; */
+    height: 100%;
+    display: flex;
+    position: relative;
+    /* To position the child elements absolutely */
+}
+
+.icondetails {
+    min-width: 50%;
+    height: 100%;
+    /* background: yellow; */
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.icondetails p:nth-child(1) {
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.icondetails p:nth-child(2) {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    display: flex;
+    column-gap: 0.4rem;
+}
+
+.icondetails p:nth-child(2) span {
+    padding: 0.1rem 0.3rem;
+    background: var(--orange);
+    border-radius: 0.5rem;
+}
+
+.icon1,
+.icon2,
+.icon3 {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    /* background: pink; */
+    display: flex;
+    position: absolute;
+    /* Position the icons on top of each other */
+    top: 50%;
+    /* Centers vertically */
+    transform: translateY(-50%);
+    /* Fine-tune vertical alignment */
+    transition: all 0.3s ease;
+    /* background: var(--grayd); */
+    /* Smooth transition for animations */
+}
+
+
+
+/* Specific positions for each icon */
+.icon1 {
+    left: 5%;
+    /* Adjust position of icon1 on the left */
+    z-index: 1;
+    /* Send it behind icon2 */
+}
+
+.icon2 {
+    left: 50%;
+    /* Center icon2 */
+    transform: translate(-50%, -50%);
+    /* Fine-tune vertical and horizontal alignment */
+    z-index: 2;
+    width: 3.2rem;
+    height: 3.2rem;
+
+    /* background: firebrick; */
+    /* Icon2 stays on top */
+}
+
+.icon3 {
+    right: 2%;
+    /* Adjust position of icon3 on the right */
+    z-index: 1;
+    width: 2.7rem;
+    top: 51%;
+    /* Centers vertically */
+    transform: translateY(-50%);
+    height: 2.7rem;
+    /* Send it behind icon2 */
+}
+
+
+/* Target all img tags inside .icon1, .icon2, .icon3 */
+.icon1 img,
+.icon2 img,
+.icon3 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+.description {
+    width: 100%;
+    min-height: 4rem;
+}
+
+
+
+.rewuhead {
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.description ul li {
+    font-size: 0.9rem;
+}
+
+.buyBtn {
+    width: 92%;
+    height: 2.3rem;
+    margin-left: 1rem;
+    border-radius: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.4rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+    background: var(--orange);
+    color: var(--ctext);
+
+}
+
+
+.buyBtn i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.planstog {
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    overflow-y: scroll;
+    margin: auto;
+    height: 100%;
+
+}
+
+.wrapper {
+    background: var(--grayd);
+
+
+}
+
+
+
+.bigwrapper {
+    position: fixed;
+    z-index: 999;
+    background: var(--bgtheme);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding-top: 3rem;
+}
+
+
+.bigwrapper h2 {
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+}
+
+.gog {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+
+.purchaseContainer {
+    width: 100%;
+    min-height: 3rem;
+    background: var(--bgtheme);
+
+}
+
+
+.purchaseContainer label {
+    display: block;
+    width: 100%;
+    height: 1.4rem;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 600;
+    color: var(--stext);
+
+}
+
+
+.purchaseContainer input {
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.4rem;
+
+    border-radius: 0.4rem;
+    padding: 0.3rem 0.4rem;
+    background-color: var(--pale);
+    color: var(--light);
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: 700;
+    padding: 0.2rem 0.8rem;
+
+}
+
+.purchaseContainer input::placeholder {
+    border-radius: 0.4rem;
+    padding: 0.3rem 0.4rem;
+    background-color: var(--pale);
+    color: var(--light);
+}
+
+
+.billBTN {
+    width: 48%;
+    height: 2.2rem;
+    border-radius: 0.3rem;
+    font-weight: 600;
+    background: var(--radGrad);
+    color: var(--cgray);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+
+.availableBalance {
+    font-size: 0.8rem;
+}
+
+
+.boldit {
+    font-weight: 600;
+}
+
+
+.btnGroup {
+    width: 100%;
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.msggticeker {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.msggticeker a {
+    color: var(--redish);
+
+}
+
+
+.PhoneContainer {
+    margin-top: .4rem;
+    width: 100%;
+    height: 2.7rem;
+    /* padding: .3rem .6rem; */
+    border-radius: .4rem;
+    background: var(--pale);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.CountryCodeInputContainer {
+    width: 24% !important;
+    height: 100%;
+    background: var(--white);
+    margin: 0 !important;
+    border-radius: .4rem !important;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.PhoneNumberInput {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0.3rem 0.8rem;
+}
+
+
+
+
+.CountryCodeInput {
+    width: 95%;
+    height: 100%;
+    background: var(--white);
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: var(--gray);
+
+}
+
+
+.footerleg {
+    text-align: center;
+    padding-top: 10rem;
+    font-size: 0.8rem;
+    color: var(--stext);
+    letter-spacing: 1px;
+}

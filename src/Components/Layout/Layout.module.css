@@ -1,0 +1,266 @@
+.layoutContainer {
+    width: 100%;
+    background: var(--bgtheme);
+
+    height: 100vh;
+
+}
+
+.child1 {
+    width: 100%;
+    height: 90%;
+    background: var(--bgtheme);
+
+}
+
+.child2 {
+    width: 100%;
+    height: 9%;
+    /* background: var(--cgray); */
+    background: var(--pale);
+    position: fixed;
+    bottom: 0;
+    right: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child1,
+.child2 {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.childa,
+.childb,
+.childc,
+.childd,
+.childe {
+    width: 20%;
+    height: 100%;
+    /* border-right: 0.13rem solid var(--black); */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.childe {
+    border: none;
+
+}
+
+
+
+
+
+
+
+
+.childc .iconSlot {
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    /* Set width to 18% */
+
+    /* Maintain equal width and height, creating a square */
+
+    aspect-ratio: 1/1 !important;
+
+}
+
+.relativevolt {
+    position: relative;
+    bottom: 0;
+}
+
+.volt {
+    background: var(--bgtheme);
+    position: absolute;
+    bottom: 2.5rem;
+    left: 0.3rem;
+    aspect-ratio: 1/1 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 0.3rem solid var(--stext); */
+    /* box-shadow: -0.3rem 0.4rem var(--stext); */
+}
+
+
+
+.iconSlot {
+    /* background: gold; */
+    width: 100%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.3rem;
+}
+
+.iconSlot i {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: var(--stext);
+}
+
+
+
+
+.iconnameSlot {
+    /* height: 35%; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-weight: 600;
+    letter-spacing: .3px;
+    font-size: 0.9rem;
+    color: var(--stext);
+    /* font-family: "Rajdhani", serif; */
+}
+
+
+.voltname {
+    position: relative;
+    top: 2.3rem;
+    font-size: 0.96rem;
+    left: 1%
+}
+
+
+.guider {
+    font-size: 1.3rem;
+}
+
+
+.volt i {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--light);
+    /* Apply gradient */
+    -webkit-background-clip: text;
+    /* Ensure background clip works on text */
+    color: transparent;
+    /* Make the text itself transparent */
+    /* padding: 1rem; */
+    /* Optional: Padding around the icon */
+    border-radius: 50%;
+}
+
+/* 
+.coloritgrade {
+} */
+
+.coloritgrade .iconSlot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coloritgrade .iconSlot i {
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--radGrad);
+    /* Apply gradient */
+    -webkit-background-clip: text;
+    /* Ensure background clip works on text */
+    color: transparent;
+    /* Make the text itself transparent */
+    /* padding: 1rem; */
+    /* Optional: Padding around the icon */
+    border-radius: 50%;
+}
+
+.coloritgrade .iconnameSlot {
+    color: var(--light);
+}
+
+/* .coloritwhite .iconSlot i {}
+
+.coloritwhite .iconnameSlot {}
+ */
+
+
+@media (min-width: 1000px) {
+    .volt {
+        background: var(--light);
+        position: absolute;
+        bottom: 3.5rem;
+        left: 35%;
+        aspect-ratio: 1/1 !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 0.3rem solid var(--stext); */
+        /* box-shadow: -0.3rem 0.4rem var(--stext); */
+    }
+
+
+    .voltname {
+        position: relative;
+        top: 3.4rem;
+        font-size: 1rem;
+        left: -6%;
+    }
+
+
+    .volt i {
+        font-size: 2.5rem !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--redish);
+    }
+
+
+
+}
+
+
+
+@media (min-width: 572px) and (max-width:1000px) {
+    .volt {
+        background: var(--light);
+        position: absolute;
+        bottom: 3.5rem;
+        left: 35%;
+        aspect-ratio: 1/1 !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 0.3rem solid var(--stext); */
+        /* box-shadow: -0.3rem 0.4rem var(--stext); */
+    }
+
+
+    .voltname {
+        position: relative;
+        top: 3rem;
+        font-size: 1rem;
+        left: 0%;
+    }
+
+
+    .volt i {
+        font-size: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--redish);
+    }
+
+
+
+}

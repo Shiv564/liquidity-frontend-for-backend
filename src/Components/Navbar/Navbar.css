@@ -1,0 +1,56 @@
+.navbari {
+    width: 100%;
+    min-height: 3rem;
+
+    /* background: rgb(20, 20, 20); */
+    color: var(--stext);
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-family: monospace; */
+    padding: 0.7rem 0;
+    margin-top: 1rem;
+
+}
+
+.dodo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dodo i {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--radGrad);
+    /* Apply gradient */
+    -webkit-background-clip: text;
+    /* Ensure background clip works on text */
+    color: transparent;
+    /* Make the text itself transparent */
+    /* padding: 1rem; */
+    /* Optional: Padding around the icon */
+    border-radius: 50%;
+    /* Optional: Round the icon */
+}
+
+
+.Pannelcontainer {
+    color: var(--stext);
+    text-align: center;
+    padding: 0.3rem;
+    font-weight: 5 00;
+    font-size: 0.6rem;
+    letter-spacing: 0.8px;
+    background: rgb(20, 20, 20);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}

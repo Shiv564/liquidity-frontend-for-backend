@@ -1,0 +1,468 @@
+.overflowy {
+    width: 100%;
+    height: 100%;
+    /* background: green; */
+    overflow-y: scroll;
+
+    background-size: 300% 100%;
+
+
+}
+
+.Minecontianer {
+    width: 100%;
+    height: 95%;
+    /* background: firebrick; */
+    color: var(--light);
+    padding-top: 3.5rem;
+    padding-bottom: 4rem;
+    /* background: var(--hlio); */
+    background: var(--bgtheme);
+
+
+
+}
+
+.wrapper {
+    background: var(--grayd);
+    border-radius: 50%;
+
+}
+
+
+
+.cryptoBar {
+    width: 100%;
+    margin-top: 0.3rem;
+    height: 3.3rem;
+    /* background: gold; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.iconsgroup {
+    width: 23%;
+    /* background: ghostwhite; */
+    height: 100%;
+    display: flex;
+    position: relative;
+    /* background: ; */
+    border-radius: 0.5rem;
+    /* border: 0.9px solid var(--light); */
+    background: var(--blued);
+    opacity: 0.6;
+
+    /* To position the child elements absolutely */
+}
+
+
+.icon1,
+.icon2,
+.icon3 {
+    width: 40%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    /* background: pink; */
+    display: flex;
+    position: absolute;
+    /* Position the icons on top of each other */
+    top: 50%;
+    /* Centers vertically */
+    transform: translateY(-50%);
+    /* Fine-tune vertical alignment */
+    transition: all 0.3s ease;
+    /* background: var(--grayd); */
+    /* Smooth transition for animations */
+}
+
+
+/* Specific positions for each icon */
+.icon1 {
+    left: 5%;
+    /* Adjust position of icon1 on the left */
+    z-index: 1;
+    /* Send it behind icon2 */
+}
+
+.icon2 {
+    left: 50%;
+    /* Center icon2 */
+    transform: translate(-50%, -50%);
+    /* Fine-tune vertical and horizontal alignment */
+    z-index: 2;
+
+
+    /* background: firebrick; */
+    /* Icon2 stays on top */
+}
+
+.icon3 {
+    right: 4%;
+    /* Adjust position of icon3 on the right */
+    z-index: 1;
+    top: 51%;
+    /* Centers vertically */
+    transform: translateY(-50%);
+    /* Send it behind icon2 */
+}
+
+
+.headerPl {
+    width: 12rem;
+    margin: auto;
+    height: 2.2rem;
+    background: var(--blued);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.minerbtn {
+    /* background: var(--stext); */
+    /* border: 1px solid var(--stext); */
+    width: 6rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.1rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 0.2rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background: var(--bgtheme);
+    color: var(--light);
+    border-radius: 0.3rem;
+    /* background: var(--radGrad); */
+
+}
+
+
+.dashboardBtn {
+    width: 6rem;
+    /* border: 1px solid var(--light); */
+    font-weight: 600;
+    display: flex;
+    height: 100%;
+    font-size: 0.9rem;
+    align-items: center;
+    color: var(--stext);
+    justify-content: center;
+    padding: 0.1rem;
+    border-radius: 0.2rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-radius: 0.3rem;
+
+
+}
+
+.chep {
+    width: 96%;
+    margin: auto;
+    margin-top: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    font-size: 0.87rem;
+
+
+}
+
+.checkedPlate {
+    width: 96%;
+    height: 30%;
+    /* background-color: var(--card); */
+    /* background-color: var(--pannel); */
+    border: 1px solid var(--redish);
+    color: var(--stext);
+    margin: auto;
+    border-radius: 0.4rem;
+    margin-top: 0.4rem;
+    padding: 0.5rem;
+    overflow-y: scroll;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+
+.checkedPlate2 {
+    width: 96%;
+    border: 1px solid var(--redish);
+    /*  */
+    height: 20%;
+    /* background-color: var(--pannel); */
+
+    color: var(--stext);
+    margin: auto;
+    border-radius: 0.4rem;
+    font-weight: 600;
+    margin-top: 0.4rem;
+    padding: 0.5rem;
+    overflow-y: scroll;
+    font-size: 0.9rem;
+}
+
+
+.btnGroup {
+    width: 100%;
+    height: 2.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.btn1,
+.btn2 {
+    width: 45%;
+    height: 100%;
+    background: var(--light);
+    color: var(--bgtheme);
+    font-weight: 600;
+    border-radius: 0.4rem;
+    background: var(--radGrad);
+
+
+}
+
+
+.msgtickker {
+    width: 96%;
+    margin: auto;
+    height: 2rem;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+
+}
+
+
+.DepositContainer {
+    width: 100%;
+    height: 95%;
+    /* background: firebrick; */
+    color: var(--light);
+    padding-top: 5rem;
+
+    background: var(--hlio);
+
+    /* background-position: top - 20%; */
+}
+
+.DepositContainer h2 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.wrapper1 {
+    width: 100%;
+    height: 8rem;
+    margin-top: 5rem;
+    /* background: green; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.wrapper2 {
+    width: 100%;
+    height: 6rem;
+    margin-top: 3rem;
+    /* background: green; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    column-gap: 1rem;
+    flex-wrap: wrap;
+}
+
+
+.wrapper1Cell {
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 0.5rem;
+}
+
+.wrapper1Cell span {
+    width: 100%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.wrapper1Cell span:nth-child(1) {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.wrapper1Cell {
+    border: 2px solid #1FB6FF;
+    /* Border color */
+    clip-path: polygon(0% 0%, 90% 0%, 100% 10%, 100% 90%, 90% 100%, 0% 100%);
+    /* Custom sharp cut for 1st and 3rd corners */
+    padding: 1rem;
+}
+
+.wrapper1Cell {
+    /* border: 2px solid #1FB6FF; */
+    /* Border color */
+
+    /* Glass effect */
+    /* rgba(21, 61, 183, 0.406) */
+    /* background: linear-gradient(90deg, #1fb4ff51 0%, #94f4833d 100%), #ffffff70;
+    ; */
+    /* Light white background with some transparency */
+    backdrop-filter: blur(10px);
+    /* Blur the background behind the element */
+    -webkit-backdrop-filter: blur(10px);
+    /* For Safari */
+    color: white;
+    /* White text for contrast */
+    border-radius: 8px;
+    /* Optional: For slightly rounded corners */
+    box-shadow: 0 4px 6px rgb(4, 6, 14);
+    background: #1b2428bd;
+
+    /* Optional: Adds depth */
+}
+
+
+.wrapper2 .wrapper1Cell {
+    display: flex;
+    flex-direction: column;
+    /* background: pink; */
+    padding: 0.5rem;
+    font-size: 0.7rem;
+}
+
+
+.wrapper2 .wrapper1Cell span {
+    width: 100%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    justify-content: center;
+    font-size: 0.65rem;
+    row-gap: 1rem;
+}
+
+.wrapper2 .wrapper1Cell span:nth-child(1) {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.wrapper1Cell {
+    border: 1px solid #1FB6FF;
+    /* Border color */
+    clip-path: polygon(0% 0%, 90% 0%, 100% 10%, 100% 90%, 90% 100%, 0% 100%);
+    /* Custom sharp cut for 1st and 3rd corners */
+    padding: 1rem;
+}
+
+.wrapper2 .wrapper1Cell img {
+    width: 2rem;
+    aspect-ratio: 1;
+    margin: auto;
+}
+
+
+
+/* icon group selection  */
+
+/* The rest of your existing CSS */
+
+/* Highlighting the selected icons group */
+.iconsgroup.selected {
+    /* Change to the color you prefer */
+    box-shadow: 0 0 5px var(--shine);
+    background: var(--bgtheme);
+    opacity: 1;
+
+    /* Optional: adding a glow effect */
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transition */
+}
+
+/* Optionally, you can also add effects on the individual icons inside the selected group */
+.iconsgroup.selected .icon1,
+.iconsgroup.selected .icon2,
+.iconsgroup.selected .icon3 {
+    /* Slightly increase the size of icons when selected */
+    transition: transform 0.3s ease;
+}
+
+
+
+.footerleg {
+    text-align: center;
+    padding-top: 6rem;
+    font-size: 0.8rem;
+    color: var(--stext);
+    letter-spacing: 1px;
+}
+
+.headconte {
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0.4rem;
+}
+
+.headcont2e {
+    text-align: center;
+
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+
+}
+
+.sopi {
+    text-align: center;
+    /* font-weight: 700; */
+    color: var(--stext);
+    letter-spacing: 0.7px;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.sopi2 {
+    font-size: 1.8rem;
+    text-align: center;
+    /* background: green; */
+    color: var(--light);
+    font-weight: 800;
+}
+
+
+.topbeam {
+    width: 90%;
+    height: 1px;
+    margin: auto;
+    background: var(--pannel);
+    margin-top: 2rem;
+}
+
+
+.Pannelcontaineri {
+    color: var(--stext);
+    text-align: center;
+    padding: 0.3rem;
+    font-weight: 5 00;
+    font-size: 0.6rem;
+    letter-spacing: 0.8px;
+    margin-top: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

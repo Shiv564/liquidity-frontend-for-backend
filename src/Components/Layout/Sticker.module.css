@@ -1,0 +1,57 @@
+.stickercontianer {
+    width: 100%;
+    height: 3rem;
+    background: var(--pale);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    z-index: 99;
+}
+
+
+
+
+
+.child1 {
+    /* background: floralwhite; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.child1 i {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    color: var(--light);
+}
+
+
+.child2 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.child2 span {
+    border: 1px solid var(--stext);
+    border-radius: 0.8rem;
+    /* width: 5rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    padding: 0.2rem 0.5rem;
+    font-size: 0.5rem;
+}
+
+.light {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background: var(--green);
+    margin-left: 0.3rem;
+}

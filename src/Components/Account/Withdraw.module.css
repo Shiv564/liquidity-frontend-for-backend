@@ -1,0 +1,186 @@
+.Depositcontianer {
+    width: 100%;
+    height: 95%;
+    /* background: firebrick; */
+    color: var(--light);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+
+}
+
+
+.instructionSet {
+    width: 100%;
+    /* background: red; */
+    min-height: 20rem;
+    padding: 0.4rem;
+}
+
+.instructionSet h5 {
+    font-size: 1rem;
+    font-weight: 500 !important;
+
+}
+
+
+
+
+
+/* Label takes full width and aligns with the select dropdown */
+.instructionSet label {
+    display: block;
+    /* Makes label take the full width */
+    margin-bottom: 8px;
+    /* Adds spacing between label and select */
+    font-size: 16px;
+}
+
+.selectWrapper {
+    width: 99%;
+    background-color: var(--pale);
+    padding: 0.7rem 0.3rem;
+    border-radius: 0.4rem;
+    height: 2.5rem;
+
+
+}
+
+
+
+/* Make the select dropdown take full width */
+.selectWrapper select {
+    width: 98%;
+    height: 100%;
+    font-size: 0.9rem;
+
+    background-color: var(--pale);
+    color: var(--light);
+    border: none;
+
+}
+
+
+
+
+.depositAddressContainer {
+    width: 98%;
+    margin: auto;
+    min-height: 5rem;
+    /* background: var(--light); */
+    margin-top: 1.6rem;
+
+    border-radius: 0.6rem;
+}
+
+
+
+
+.expand {
+    font-weight: 500;
+    font-size: 0.9rem !important;
+    color: var(--ctext) !important;
+}
+
+
+.depositnote {
+    font-size: 0.9rem;
+    margin: auto;
+    width: 97%;
+    margin-top: 2rem;
+}
+
+
+
+
+
+.DepositOverlook {
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    background: var(--bgtheme);
+    top: 2rem;
+    padding-top: 3rem;
+    left: 0;
+
+}
+
+
+.epositFrom {
+    width: 90%;
+    min-height: 3rem;
+    padding-top: 1rem;
+    margin: auto;
+}
+
+
+.lab1 {
+    font-size: 0.9rem !important;
+}
+
+
+.inputblalance {
+    width: 99%;
+    height: 3rem;
+    border-radius: 0.4rem;
+    padding: 0.3rem 0.4rem;
+    background-color: var(--pale);
+    color: var(--light);
+    font-size: 0.9rem;
+
+}
+
+
+.inputblalance::placeholder {
+    color: var(--stext);
+    font-size: 0.9rem;
+}
+
+.quie {
+    font-size: 0.9rem;
+    color: var(--fos);
+
+}
+
+
+.depositSubmit {
+    width: 100%;
+    margin-top: 2rem;
+    height: 2.4rem;
+    border-radius: 0.4rem;
+    /* border: 1px solid var(--fos); */
+    background: var(--radGrad);
+    font-weight: 600;
+    /* color: var(--fos); */
+}
+
+
+.rewuhead {
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+
+.epositFrom label {
+    font-size: 0.8rem !important;
+    font-weight: 600;
+}
+
+.epositFrom input {
+    height: 2.4rem;
+}
+
+
+.balancetip {
+    font-size: 0.8rem;
+    color: var(--light);
+
+}
+
+.balancetip span {
+    color: var(--fos);
+    font-weight: 600;
+
+}

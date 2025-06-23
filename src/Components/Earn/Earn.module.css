@@ -1,0 +1,111 @@
+.EarnContianer {
+    width: 100%;
+    height: 95%;
+    /* background: firebrick; */
+    color: var(--light);
+    padding-top: 5rem;
+}
+
+
+.EarnContianerwrapper {
+    width: 97%;
+    height: 100%;
+    padding-bottom: 2rem;
+    /* background: red; */
+
+    overflow-y: scroll;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+
+.EarnContianer h2 {
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+.EarnContianerwrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    row-gap: 1rem;
+}
+
+
+.earnbar {
+    width: 98%;
+    min-height: 5rem;
+    border-radius: 0.6rem;
+    /* background: var(--blued); */
+    /* border: 1px solid var(--stext); */
+    padding: 0.4rem 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--stext)
+}
+
+
+.iconContainer {
+    width: 20%;
+    height: 100%;
+    background: var(--pale);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+}
+
+.iconContainer i {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--radGrad);
+    /* Apply gradient */
+    -webkit-background-clip: text;
+    /* Ensure background clip works on text */
+    color: transparent;
+
+}
+
+.defContainer {
+    width: 78%;
+    height: 100%;
+    background: var(--pale);
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+
+    padding: 0.6rem 0.6rem;
+    padding-right: 0.1rem;
+
+}
+
+
+.pop1 {
+    margin-bottom: 0;
+    font-size: 1.14rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+
+}
+
+
+.pop2 {
+    margin-top: -0.1rem;
+    margin-bottom: 0;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1rem;
+    color: var(--stext);
+    letter-spacing: 1px;
+    padding-right: 0rem !important;
+
+}

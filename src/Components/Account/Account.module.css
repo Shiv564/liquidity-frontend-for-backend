@@ -1,0 +1,443 @@
+.AccountContainer {
+    width: 100%;
+    min-height: 100vh;
+    /* background: rebeccapurple; */
+    padding-top: 3.5rem;
+}
+
+
+.accountHeader {
+    width: 100%;
+    height: 2rem;
+    padding: 0.3rem 0.6rem;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+}
+
+.child1 {
+    width: 6.2rem;
+    height: 1.2rem;
+    border-radius: 0.6rem;
+    background: var(--pale);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.circle {
+    width: 1.7rem;
+    height: 1.7rem;
+    position: absolute;
+    top: -0.25rem;
+    left: 0.13rem;
+    border-radius: 50%;
+    background: var(--pale);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.2rem;
+    border: 1px solid var(--light);
+    color: var(--stext);
+}
+
+
+.idname {
+    width: 3.6rem;
+    height: 100%;
+    position: absolute;
+    left: 2.2rem;
+    height: 1.1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: var(--stext);
+    justify-content: flex-start;
+}
+
+.idname i {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 0.1rem;
+}
+
+
+
+.walletslide {
+    width: 100%;
+    min-height: 7rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.walletslide h4 {
+    text-align: center;
+    color: var(--stext);
+    letter-spacing: 0.7px;
+    font-size: 1.2rem;
+}
+
+.walletslide h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: var(--light);
+    font-weight: 800;
+}
+
+
+.btnGroups {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4rem 1rem;
+    margin-top: 1.2rem;
+}
+
+
+.btn1,
+.btn2 {
+    width: 45%;
+    height: 100%;
+    border-radius: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    background: var(--light);
+    background: var(--radGrad);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.4rem;
+
+}
+
+.btn1 i,
+.btn2 i {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 0.3rem;
+}
+
+.accountmanuel {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2rem 0.6rem;
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+
+.manule {
+    height: 100%;
+    border-radius: 0.6rem;
+    padding: 0.2rem 0.7rem;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.manule i {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--radGrad);
+    -webkit-background-clip: text;
+    color: transparent;
+    border-radius: 50%;
+}
+
+.history {
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+
+.history i {
+    display: flex;
+    align-items: center;
+    color: var(--stext);
+}
+
+.walletbalancesheet {
+    width: 96%;
+    margin: auto;
+    height: 28rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    overflow-y: scroll;
+    padding: 0.3rem 1.5%;
+    padding-bottom: 4rem;
+    scroll-behavior: smooth;
+}
+
+
+/* Hide scrollbar for webkit browsers (Chrome, Safari, etc.) */
+.walletbalancesheet::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Hide scrollbar for Firefox */
+.walletbalancesheet {
+    scrollbar-width: none;
+    /* For Firefox */
+}
+
+table {
+    width: 100%;
+    /* Make the table fill the container */
+    border-collapse: collapse;
+    /* Ensures borders don't overlap */
+}
+
+th,
+td {
+    text-align: left;
+    /* Align text to the left */
+    padding: 8px;
+    /* Add space around content inside cells */
+    border-bottom: 1px solid #ddd;
+    /* Adds a bottom border to rows for better visibility */
+}
+
+/* Ensuring both columns have equal width */
+th,
+td {
+    width: 50%;
+
+    /* 50% width for each column */
+}
+
+
+
+.flexit {
+    /* background: red; */
+    display: flex;
+    column-gap: 0.7rem;
+    align-items: center;
+}
+
+th:first-child,
+td:first-child {
+    text-align: left;
+}
+
+/* Align Amount column (th and td) to the right */
+th:last-child,
+td:last-child {
+    text-align: right;
+}
+
+
+.iconcontainer {
+    /* background: green; */
+    height: 1.8rem;
+    display: flex;
+    /* width: 10%; */
+}
+
+
+
+.iconcontainer img {
+    object-fit: cover;
+    height: 100%;
+
+
+}
+
+.titlecontainer {
+    font-weight: 600;
+    font-size: 1.16rem;
+    /* font-weight: 700; */
+
+    color: var(--light);
+}
+
+
+.quantity {
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    color: var(--light);
+    font-size: 1rem;
+}
+
+.walletbalancesheet table {
+    overflow-y: scroll;
+    height: 10rem;
+}
+
+
+
+.walletbalancesheet table thead tr th {
+    color: var(--stext);
+}
+
+
+.imageshadow {
+    background-color: white;
+    border-radius: 50%;
+    transform: scale(0.88);
+    /* Scale down by 20% */
+    transform-origin: center;
+    /* Ensure the scaling happens from the center */
+}
+
+
+
+
+
+.iconcontainer {
+    position: relative;
+}
+
+
+.rotaterit {
+    object-fit: cover;
+    height: 100%;
+    border-radius: 50%;
+    /* transform: rotate(-10deg); */
+    /* Remove the quotes around the angle */
+
+
+}
+
+.rotaterit2 {
+    object-fit: cover;
+    position: absolute;
+    width: 0.8rem;
+    bottom: -0.2rem;
+    height: 0.8rem !important;
+    right: -0.3rem;
+    background-color: black;
+    border-radius: 50%;
+
+}
+
+
+.titlecontainerround {
+    border-radius: 50%;
+}
+
+
+
+
+
+.flexit {
+    border: 0 !important;
+}
+
+.quantity {
+    border: 0 !important;
+
+}
+
+.walletbalancesheet table thead tr th {
+    border: 0 !important;
+}
+
+/* select tokens  */
+/* select tokens  */
+.quantity button {
+
+    font-size: 0.8rem;
+    padding: 0.1rem 0.4rem;
+    border-radius: 0.35rem;
+    font-weight: 600;
+    border: 0.7px solid var(--fos);
+    color: var(--gray);
+    background: transparent;
+    margin-left: 15%;
+}
+
+
+
+.select_container {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 0rem;
+}
+
+
+.walletbalancesheet {
+    width: 96%;
+    height: 100%;
+    padding-bottom: 8rem;
+
+}
+
+
+.accountHeader {
+    padding-top: 5rem;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.search_capsule {
+    width: 95%;
+    height: 2.4rem;
+    background: var(--white);
+    border-radius: 0.4rem;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+    justify-content: center;
+    /* border: 0.4px solid var(--fos); */
+}
+
+.search_capsule div {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+    border-radius: 0.2rem;
+    background: var(--pale);
+
+}
+
+.search_capsule div i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background: var(--radGrad);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+
+.search_capsule input {
+    width: 80%;
+    height: 100%;
+    background: transparent;
+    border-radius: 0.4rem;
+}
+
+.search_capsule input::placeholder {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
